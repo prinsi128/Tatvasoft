@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TatvaSoft</title>
+  <link rel="stylesheet" href="css/Style.css">
+  <link rel="icon" href="images/logo.png" type="image/icon type">
+  <style>
+ .upload-btn-wrapper {
+   height:max-content;
+   width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  margin-top: 60px;
+}
+
+.btn {
+  width: 120px;
+  height: 40px;
+  border: 0px;
+  color: white;
+  background-color:#f14d54;
+  padding: 8px 20px;
+  font-size: 15px;
+}
+
+.upload-btn-wrapper input[type=file] {
+  width: 100%;
+  height: 40px;
+  height:max-content;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.NFC{
+  position: absolute;
+  float:inline-start;
+  width: 76%;
+  padding: 10px;
+  padding-bottom: 9px;
+  padding-left: 0px;
+  border: 1px #cacaca solid;
+}
+  </style>
+</head>
+<body>
+  <div id="Navbar">
+    <img alt="logo" src="images/site-logo.svg" id="logo"/>
+    <div id="rightNav">
+      <a href="" class="rightA">Login</a>
+      <div class="verticalline"></div>
+      <a href="" class="rightA">Register</a>
+      <button class="cart"><img src="images/Cart icon.png"
+       style="height: 25px;
+              width: 25px;
+              float: left;"/>
+              <span 
+              style="margin: 5px;
+                     float: left;
+                    color: #f14d54;
+                    font-size: 18px;"><b>0</b>
+              </span >
+              <span
+              style="
+              color: grey;
+              margin: 5px;
+              float: left;
+              font-size: 18px;"
+              >Cart</span></button>
+    </div>
+  </div>
+         <div id="SerchbarContainer">
+           <input type="search" name="" id="searchbar" placeholder="What are you looking for..."/>
+           <button class="btn1"><img src="images/search.png"
+             style="height: 15px;
+                    width: 15px;
+                    float: left;
+                    margin-right: 5px;"/><span>Search</span></button>
+           <button class="btn2">Cancel</button>
+           </div>
+           <div class="Conatiner"> 
+           <h1 class="cname">Edit Product</h1>
+           <div class="Hrline"></div> 
+           <form action="" class="form">
+                   
+
+            <div class="half">
+              <div style="width: 100%;">
+                <label class="label">First Name *</label><br/>
+               <input type="text" name="" id="" class="inputContainer">
+               <div style="margin-top: 35px;">
+               <label class="label">Shop By Categories</label><br/>
+               <select class="inputContainer">
+                   <option></option>
+                   <option>TatvaSoft here</option>
+               </select>
+               </div>
+               <div class="upload-btn-wrapper">
+                <button class="btn">Upload</button>
+                <input type="file" name="myfile" />
+                <span class="NFC">No file chosen</span>
+              </div>
+
+               <div style="margin-top: 35px;">                                 
+               <button class="btn1">Save</button>
+               <button class="btn2">Cancel</button>
+               </div>
+               </div>
+              </div>
+              <div class="half">
+                <div style="width: 100%;">
+                  <label class="label">Last Name *</label><br/>
+                 <input type="text" name="" id="" class="inputContainer">
+                 <div style="margin-top: 35px;">
+                 <label class="label">Discription</label><br/>
+                 <input type="text" name="" id="" class="inputContainer">
+                </div>
+               </div> 
+              </div> 
+           </form> 
+          </div> 
+          <div class="lastdivision">
+            <img alt="logo" src="images/site-logo.svg" id="logo"/><br/>
+            <p class="copyright-text">
+              © 2022 Tatvasoft.com. All rights reserved.
+            </p>
+          </div>         
+</body>
+</html>

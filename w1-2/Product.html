@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>TatvaSoft</title>
+  <link rel="stylesheet" href="css/Style.css">
+  <link rel="icon" href="images/logo.png" type="image/icon type">
+  <style>
+     .productSearchbar{
+       float: right;
+       width: 300px;
+       height: 40px;
+       color: rgb(55,55,55);
+       border: 1px #cacaca solid;
+       padding: 10px;
+       font-style: italic;
+     }
+     .pbtn{
+       color: white;
+       float: right;
+       height: 40px;
+       width: 100px;
+       background-color: #f14d54;
+       border: 0px;
+       margin-left: 10px;
+     }
+     .PtableContainer{
+         float: left;
+         width: 100%;
+         margin-top: 32px;
+     }
+     table{
+       float: left;
+       width: 100%;
+     }
+     td{
+       color: #212121;
+       text-align: left;
+       font-size: 14px;
+       border-bottom: 1px #cacaca solid;
+       padding: 20px;
+     }
+     .editBtn{
+       background-color: white;
+       width: 80px;
+       height: 30px;
+       color: #80bf32;
+       border: 1px #80bf32 solid;
+       border-radius: 4px;
+       font-weight: bold;
+     }
+     .Removebtn{
+       background-color: white;
+       width: 80px;
+       height: 30px;
+       color: #f14d54;
+       border: 1px #f14d54 solid;
+       border-radius: 4px;
+       font-weight: bold;
+       margin-left: 10px;
+     }
+     .navBtn{
+       background-color: white;
+       border: 0px;
+       padding: 10px;
+     }
+  </style>
+</head>
+<body>
+  <div id="Navbar">
+    <img alt="logo" src="images/site-logo.svg" id="logo"/>
+    <div id="rightNav">
+      <a href="" class="rightA">Login</a>
+      <div class="verticalline"></div>
+      <a href="" class="rightA">Register</a>
+      <button class="cart"><img src="images/Cart icon.png"
+       style="height: 25px;
+              width: 25px;
+              float: left;"/>
+              <span 
+              style="margin: 5px;
+                     float: left;
+                    color: #f14d54;
+                    font-size: 18px;"><b>0</b>
+              </span >
+              <span
+              style="
+              color: grey;
+              margin: 5px;
+              float: left;
+              font-size: 18px;"
+              >Cart</span></button>
+    </div>
+  </div>
+         <div id="SerchbarContainer">
+           <input type="search" name="" id="searchbar" placeholder="What are you looking for..."/>
+           <button class="btn1"><img src="images/search.png"
+             style="height: 15px;
+                    width: 15px;
+                    float: left;
+                    margin-right: 5px;"/><span>Search</span></button>
+           <button class="btn2">Cancel</button>
+           </div>
+           <div class="Conatiner"> 
+            <h1 class="cname">Product Page</h1>
+            <div class="Hrline"></div> 
+            <div style="width: 100%;">
+              <button class="pbtn"><b>Add Product</b></button>
+              <input type="text" class="productSearchbar" placeholder="Search..."/>
+            </div>
+            <div class="PtableContainer">
+            <table>
+              <tr>
+                <td><b>Id</b></td>
+                <td><b>Ttitulo</b></td>
+                <td><b>Fonte De Dasos</b></td>
+                <td><b>Query</b></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>12</td>
+                <td>IBSM Followup</td>
+                <td>Data Source 1</td>
+                <td>Teste</td>
+                <td style="text-align: right;"><button class="editBtn">Edit</button><button class="Removebtn">Delete</button></td>
+              </tr>
+              <tr>
+                <td>13</td>
+                <td>IBSM Followup</td>
+                <td>Data Source 2</td>
+                <td>Teste</td>
+                <td style="text-align: right;"><button class="editBtn">Edit</button><button class="Removebtn">Delete</button></td>
+              </tr>
+              <tr>
+                <td>24</td>
+                <td>IBSM Followup</td>
+                <td>Data Source 2</td>
+                <td>Teste</td>
+                <td style="text-align: right;"><button class="editBtn">Edit</button><button class="Removebtn">Delete</button></td>
+              </tr>
+              <tr>
+                <td>16</td>
+                <td>IBSM Followup</td>
+                <td>Data Source 1</td>
+                <td>Teste</td>
+                <td style="text-align: right;"><button class="editBtn">Edit</button><button class="Removebtn">Delete</button></td>
+              </tr>
+              <tr>
+                <td>21</td>
+                <td>IBSM Followup</td>
+                <td>Data Source 2</td>
+                <td>Teste</td>
+                <td style="text-align: right;"><button class="editBtn">Edit</button><button class="Removebtn">Delete</button></td>
+              </tr>
+              <tr>
+                <td>23</td>
+                <td>IBSM Followup</td>
+                <td>Data Source 2</td>
+                <td>Teste</td>
+                <td style="text-align: right;"><button class="editBtn">Edit</button><button class="Removebtn">Delete</button></td>
+              </tr>
+            </table>
+            </div>
+            <div style="width:100%;float: left;text-align: right;margin-top: 28px;padding-right: 50px;">
+                <label style="font-size: 14px;color: #212121;">Rows Per Page:</label>
+                <select style="padding: 5px;font-weight: bold;  border: 1px #cacaca solid;">
+                  <option>5</option>
+                  <option>10</option>
+                  <option>15</option>
+                </select>
+                <label style="margin: 15px;font-size: 14px;color:#212121">1-5 of 6</label>
+                <button class="navBtn" style="color: #cacaca;"><</button>
+                <button class="navBtn">></button>
+            </div>
+           </div> 
+           <div class="lastdivision">
+            <img alt="logo" src="images/site-logo.svg" id="logo"/><br/>
+            <p class="copyright-text">
+              © 2022 Tatvasoft.com. All rights reserved.
+            </p>
+          </div>   
+</body>
+</html>

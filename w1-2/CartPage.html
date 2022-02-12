@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="theme-color" content="#ffffff" />
+  <title>TatvaSoft</title>
+  <link rel="stylesheet" href="css/Style.css">
+  <link rel="icon" href="images/logo.png" type="image/icon type">
+
+  <style>
+    .CContainer{
+       text-align: center;
+       padding: 30%;
+        padding-top: 20px;
+  padding-bottom: 80px;
+  width: 100%;
+  float: left;
+  background-color: white;
+    }
+    .card{
+      float: left;
+      text-align: left;
+      margin-top: 30px;
+      width: 585px;
+      height: 149.2px;
+      border: 1px #cacaca solid;
+      border-radius: 5px;
+    }
+    .pimg{
+      float: left;
+      width: 150px;
+      height: 117.2px;
+      background-color: black;
+      margin: 15px;
+    }
+    .addbtns{
+      width: 20px;
+      height: 20px;
+      background-color: #f14d54;
+      color: white;
+      border: 0px;
+      font-weight: bold;
+    }
+    .tproduct{
+      font-size: 14px;
+      padding: 2px;
+      border: 1px #cacaca solid;
+      margin: 10px;
+    }
+    .placeOrder{
+      color: white;
+      width: 139.95px;
+      height: 40px;
+      padding: 10px;
+      background-color: #f14d54;
+      float: left;
+      margin-top: 35px;
+      border: 0px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div id="Navbar">
+    <img alt="logo" src="images/site-logo.svg" id="logo"/>
+    <div id="rightNav">
+      <a href="" class="rightA">Login</a>
+      <div class="verticalline"></div>
+      <a href="" class="rightA">Register</a>
+      <button class="cart"><img src="images/Cart icon.png"
+       style="height: 25px;
+              width: 25px;
+              float: left;"/>
+              <span 
+              style="margin: 5px;
+                     float: left;
+                    color: #f14d54;
+                    font-size: 18px;"><b>0</b>
+              </span >
+              <span
+              style="
+              color: grey;
+              margin: 5px;
+              float: left;
+              font-size: 18px;"
+              >Cart</span></button>
+    </div>
+  </div>
+         <div id="SerchbarContainer">
+           <input type="search" name="" id="searchbar" placeholder="What are you looking for..."/>
+           <button class="btn1"><img src="images/search.png"
+             style="height: 15px;
+                    width: 15px;
+                    float: left;
+                    margin-right: 5px;"/><span>Search</span></button>
+           <button class="btn2">Cancel</button>
+           </div>
+           <div class="CContainer"> 
+            <h1 class="cname">Cart Page</h1>
+            <div class="Hrline"></div> 
+            <div style="width: 100%;float: left;padding-right: 30px;">
+               <span style="float: left;"><b>My Shopping Bag(3 Items)</b></span>
+               <span style="float: right;"><b>Total price : 3000</b></span>
+            </div>
+            <div class="card">
+               <img src="images/image200x200.png" alt="img" class="pimg"/>
+               <div style="margin-top: 15px;width:max-content;float: left;">
+                 <h5 style="margin: 0px;float: left;">Campus Sutra</h5>
+                 <br/>
+                 <span style="font-size: 14px;margin-bottom: 15px;color: #f14d54;">Cart item name</span>
+                 <br/>
+                 <div style="float: left;margin-top: 15px;">
+                 <button class="addbtns">+</button>
+                 <span class="tproduct">1</span>
+                 <button class="addbtns">-</button>
+                 </div>
+               </div>
+
+               <div style="margin-top: 15px;width:50%;float: right;text-align: right;margin-right: 15px;">
+                 <span><b>500</b></span><br/>
+                 <span style="font-size: 14px;margin-bottom: 15px;color: #cacaca;text-decoration:line-through;font-weight: bold;">1000</span><span style="font-size: 14px;margin-bottom: 15px;color: #f14d54;margin-left: 5px;font-weight: bold;">50% OFF</span><br/><br/>
+                 <a style="margin-top: 15px;font-size: 14px;color: #f14d54;">Remove</a>
+               </div>
+            </div>
+
+            <div class="card">
+              <img src="images/image200x200.png" alt="img" class="pimg"/>
+              <div style="margin-top: 15px;width:max-content;float: left;">
+                <h5 style="margin: 0px;float: left;">Campus Sutra</h5>
+                <br/>
+                <span style="font-size: 14px;margin-bottom: 15px;color: #f14d54;">Cart item name</span>
+                <br/>
+                <div style="float: left;margin-top: 15px;">
+                <button class="addbtns">+</button>
+                <span class="tproduct">1</span>
+                <button class="addbtns">-</button>
+                </div>
+              </div>
+
+              <div style="margin-top: 15px;width:50%;float: right;text-align: right;margin-right: 15px;">
+                <span><b>500</b></span><br/>
+                <span style="font-size: 14px;margin-bottom: 15px;color: #cacaca;text-decoration:line-through;font-weight: bold;">1000</span><span style="font-size: 14px;margin-bottom: 15px;color: #f14d54;margin-left: 5px;font-weight: bold;">50% OFF</span><br/><br/>
+                <a style="margin-top: 15px;font-size: 14px;color: #f14d54;">Remove</a>
+              </div>
+           </div>
+
+           <div class="card">
+            <img src="images/image200x200.png" alt="img" class="pimg"/>
+            <div style="margin-top: 15px;width:max-content;float: left;">
+              <h5 style="margin: 0px;float: left;">Campus Sutra</h5>
+              <br/>
+              <span style="font-size: 14px;margin-bottom: 15px;color: #f14d54;">Cart item name</span>
+              <br/>
+              <div style="float: left;margin-top: 15px;">
+              <button class="addbtns">+</button>
+              <span class="tproduct">1</span>
+              <button class="addbtns">-</button>
+              </div>
+            </div>
+
+            <div style="margin-top: 15px;width:50%;float: right;text-align: right;margin-right: 15px;">
+              <span><b>500</b></span><br/>
+              <span style="font-size: 14px;margin-bottom: 15px;color: #cacaca;text-decoration:line-through;font-weight: bold;">1000</span><span style="font-size: 14px;margin-bottom: 15px;color: #f14d54;margin-left: 5px;font-weight: bold;">50% OFF</span><br/><br/>
+              <a style="margin-top: 15px;font-size: 14px;color: #f14d54;">Remove</a>
+            </div>
+         </div>
+
+         <div class="card">
+          <img src="images/image200x200.png" alt="img" class="pimg"/>
+          <div style="margin-top: 15px;width:max-content;float: left;">
+            <h5 style="margin: 0px;float: left;">Campus Sutra</h5>
+            <br/>
+            <span style="font-size: 14px;margin-bottom: 15px;color: #f14d54;">Cart item name</span>
+            <br/>
+            <div style="float: left;margin-top: 15px;">
+            <button class="addbtns">+</button>
+            <span class="tproduct">1</span>
+            <button class="addbtns">-</button>
+            </div>
+          </div>
+
+          <div style="margin-top: 15px;width:50%;float: right;text-align: right;margin-right: 15px;">
+            <span><b>500</b></span><br/>
+            <span style="font-size: 14px;margin-bottom: 15px;color: #cacaca;text-decoration:line-through;font-weight: bold;">1000</span><span style="font-size: 14px;margin-bottom: 15px;color: #f14d54;margin-left: 5px;font-weight: bold;">50% OFF</span><br/><br/>
+            <a style="margin-top: 15px;font-size: 14px;color: #f14d54;">Remove</a>
+          </div>
+       </div>
+       <button class="placeOrder">Place Order</button>
+           </div> 
+           <div class="lastdivision">
+            <img alt="logo" src="images/site-logo.svg" id="logo"/><br/>
+            <p class="copyright-text">
+              © 2022 Tatvasoft.com. All rights reserved.
+            </p>
+          </div>   
+</body>
+</html>

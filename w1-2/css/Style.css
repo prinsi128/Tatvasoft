@@ -1,0 +1,172 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+#Navbar{
+  float: left;
+  height: 92px;
+  width: 100%;
+  background-color:transparent;
+  padding: 20px 50px;
+}
+#logo{
+  margin: 0px;
+  width: 200px;
+  height: 50px;
+}
+#rightNav{
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+.rightA{
+  color: #f14d54;
+  font-size: 18px;
+  padding: 0px 15px;
+  text-decoration: none;
+  margin-top: 12px;
+}
+.verticalline{
+  background-color: #cacaca;
+  width: 2px;
+  height: 18px;
+  margin-top: 12px;
+}
+.cart{
+  background-color: white;
+  border-radius: 5px;
+  width:max-content;
+  border: 1px #cacaca  solid;
+  padding: 5px 10px;
+}
+#SerchbarContainer{
+  text-align: center;
+  float: left;
+  width: 100%;
+  height: 80px;
+  background-color: #f4f4f4;
+}
+#searchbar{
+  color: rgb(33,33,33);
+  width: 422px;
+  height: 40px;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 20px;
+  margin-right: 5px;
+  border: 1px #cacaca solid;
+  font-style: italic;
+ }
+.btn1{
+  color: white;
+     font-size: 16px;
+     padding: 5px 25px;
+     height: 40px;
+     background-color: #80bf32;
+     border: 0px;
+     border-radius: 5px;
+}
+.btn2{
+ color: white;
+     font-size: 16px;
+     padding: 5px 25px;
+     height: 40px;
+     background-color: #f14d54;
+     border: 0px;
+     border-radius: 5px;
+}
+.PConatiner{
+  text-align: center;
+  align-items: center;
+  padding: 290px;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  width: 100%;
+  float: left;
+  background-color: white;
+}
+.Conatiner{
+  text-align: center;
+  align-items: center;
+  padding: 200px;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  width: 100%;
+  float: left;
+  background-color: white;
+}
+.cname{
+  margin-top: 50px;
+}
+.Hrline{
+  margin-top: 25px;
+  background-color: #f14d54;
+  height: 2px;
+  width: 150px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.lastdivision{
+  text-align: center;
+   float: left;
+   width: 100%;
+   height: 100px;
+   background-color: #f4f4f4;
+   padding: 50px;
+   padding-bottom: 100px;
+ }
+ .brand{
+  font-size: 12px;
+  margin-top: 50px;
+  color: rgb(43, 43, 43);
+  opacity: .6;
+}
+.isActive{
+  margin-left: 5px;
+  color:  #f14d54;
+}
+.Aerrow{
+  color: #cacaca;
+  font-size: 11px;
+  margin-left: 5px;
+}
+.Navgation{
+  margin-top: 50px;
+}
+.form{
+  text-align: left;
+}
+.infoTitle{
+  font-size: 20px;
+  color: #414141;
+}
+.horiLine{
+  height: 1px;
+  background-color:#cacaca;
+  border: 0px;
+  margin: 20px 0px;
+}
+.disclimer{
+  font-size: 15px;
+  color: #838383;
+  margin-bottom: 20px;
+}
+.half{
+  float: left;
+  width: 50%;
+}
+.label{
+  color: #414141;
+  font-size: 15px;
+}
+.inputContainer{
+  width: 98%;
+  height: 40px;
+  border: 1px #cacaca solid;
+  margin-top: 15px;
+  padding: 10px;
+}
+
